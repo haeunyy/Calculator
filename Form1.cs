@@ -232,7 +232,7 @@ namespace Calculator
                         } else
                         {
                             firstOperand *= secondOperand;
-                            display.Text = firstOperand.ToString();
+                            display.Text = firstOperand.ToString();   
                         }
                         break;
                 }

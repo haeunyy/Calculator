@@ -37,7 +37,7 @@ namespace Calculator
             Button button = (Button)sender;
             string strNumber = display.Text += button.Text;
             double Number = double.Parse(strNumber);
-            display.Text = Number.ToString();
+            display.Text = Number.ToString(); 
         }
 
         private void ButtonAllClear_Click(object sender, EventArgs e)

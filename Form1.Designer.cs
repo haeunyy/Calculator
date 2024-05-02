@@ -30,23 +30,24 @@
         {
             this.display = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.ButtonSeven = new System.Windows.Forms.Button();
-            this.ButtonEight = new System.Windows.Forms.Button();
-            this.ButtonNine = new System.Windows.Forms.Button();
-            this.ButtonDivide = new System.Windows.Forms.Button();
-            this.ButtonFour = new System.Windows.Forms.Button();
-            this.ButtonFive = new System.Windows.Forms.Button();
-            this.ButtonSix = new System.Windows.Forms.Button();
-            this.ButtonMultiple = new System.Windows.Forms.Button();
-            this.ButtonOne = new System.Windows.Forms.Button();
-            this.ButtonTwo = new System.Windows.Forms.Button();
-            this.ButtonThree = new System.Windows.Forms.Button();
-            this.ButtonAdd = new System.Windows.Forms.Button();
-            this.ButtonAllClear = new System.Windows.Forms.Button();
-            this.ButtonZero = new System.Windows.Forms.Button();
-            this.ButtonPoint = new System.Windows.Forms.Button();
             this.ButtonSubtract = new System.Windows.Forms.Button();
+            this.ButtonPoint = new System.Windows.Forms.Button();
+            this.ButtonZero = new System.Windows.Forms.Button();
+            this.ButtonAllClear = new System.Windows.Forms.Button();
+            this.ButtonAdd = new System.Windows.Forms.Button();
+            this.ButtonThree = new System.Windows.Forms.Button();
+            this.ButtonTwo = new System.Windows.Forms.Button();
+            this.ButtonOne = new System.Windows.Forms.Button();
+            this.ButtonMultiple = new System.Windows.Forms.Button();
+            this.ButtonSix = new System.Windows.Forms.Button();
+            this.ButtonFive = new System.Windows.Forms.Button();
+            this.ButtonFour = new System.Windows.Forms.Button();
+            this.ButtonDivide = new System.Windows.Forms.Button();
+            this.ButtonNine = new System.Windows.Forms.Button();
+            this.ButtonEight = new System.Windows.Forms.Button();
+            this.ButtonSeven = new System.Windows.Forms.Button();
             this.ButtonResult = new System.Windows.Forms.Button();
+            this.displayEx = new System.Windows.Forms.Label();
             this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,7 +60,7 @@
             this.display.Size = new System.Drawing.Size(367, 73);
             this.display.TabIndex = 0;
             this.display.Text = "0";
-            this.display.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.display.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             // 
             // tableLayoutPanel2
             // 
@@ -95,159 +96,16 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(370, 432);
             this.tableLayoutPanel2.TabIndex = 1;
             // 
-            // ButtonSeven
+            // ButtonSubtract
             // 
-            this.ButtonSeven.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonSeven.Location = new System.Drawing.Point(3, 3);
-            this.ButtonSeven.Name = "ButtonSeven";
-            this.ButtonSeven.Size = new System.Drawing.Size(86, 102);
-            this.ButtonSeven.TabIndex = 2;
-            this.ButtonSeven.Text = "7";
-            this.ButtonSeven.UseVisualStyleBackColor = true;
-            this.ButtonSeven.Click += new System.EventHandler(this.ButtonSeven_Click);
-            // 
-            // ButtonEight
-            // 
-            this.ButtonEight.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonEight.Location = new System.Drawing.Point(95, 3);
-            this.ButtonEight.Name = "ButtonEight";
-            this.ButtonEight.Size = new System.Drawing.Size(86, 102);
-            this.ButtonEight.TabIndex = 3;
-            this.ButtonEight.Text = "8";
-            this.ButtonEight.UseVisualStyleBackColor = true;
-            this.ButtonEight.Click += new System.EventHandler(this.ButtonEight_Click);
-            // 
-            // ButtonNine
-            // 
-            this.ButtonNine.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonNine.Location = new System.Drawing.Point(187, 3);
-            this.ButtonNine.Name = "ButtonNine";
-            this.ButtonNine.Size = new System.Drawing.Size(86, 102);
-            this.ButtonNine.TabIndex = 4;
-            this.ButtonNine.Text = "9";
-            this.ButtonNine.UseVisualStyleBackColor = true;
-            this.ButtonNine.Click += new System.EventHandler(this.ButtonNine_Click);
-            // 
-            // ButtonDivide
-            // 
-            this.ButtonDivide.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonDivide.Location = new System.Drawing.Point(281, 3);
-            this.ButtonDivide.Name = "ButtonDivide";
-            this.ButtonDivide.Size = new System.Drawing.Size(86, 102);
-            this.ButtonDivide.TabIndex = 5;
-            this.ButtonDivide.Text = "%";
-            this.ButtonDivide.UseVisualStyleBackColor = true;
-            this.ButtonDivide.Click += new System.EventHandler(this.ButtonDivide_Click);
-            // 
-            // ButtonFour
-            // 
-            this.ButtonFour.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonFour.Location = new System.Drawing.Point(3, 111);
-            this.ButtonFour.Name = "ButtonFour";
-            this.ButtonFour.Size = new System.Drawing.Size(86, 102);
-            this.ButtonFour.TabIndex = 6;
-            this.ButtonFour.Text = "4";
-            this.ButtonFour.UseVisualStyleBackColor = true;
-            this.ButtonFour.Click += new System.EventHandler(this.ButtonFour_Click);
-            // 
-            // ButtonFive
-            // 
-            this.ButtonFive.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonFive.Location = new System.Drawing.Point(95, 111);
-            this.ButtonFive.Name = "ButtonFive";
-            this.ButtonFive.Size = new System.Drawing.Size(86, 102);
-            this.ButtonFive.TabIndex = 7;
-            this.ButtonFive.Text = "5";
-            this.ButtonFive.UseVisualStyleBackColor = true;
-            this.ButtonFive.Click += new System.EventHandler(this.ButtonFive_Click);
-            // 
-            // ButtonSix
-            // 
-            this.ButtonSix.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonSix.Location = new System.Drawing.Point(187, 111);
-            this.ButtonSix.Name = "ButtonSix";
-            this.ButtonSix.Size = new System.Drawing.Size(86, 102);
-            this.ButtonSix.TabIndex = 8;
-            this.ButtonSix.Text = "6";
-            this.ButtonSix.UseVisualStyleBackColor = true;
-            this.ButtonSix.Click += new System.EventHandler(this.ButtonSix_Click);
-            // 
-            // ButtonMultiple
-            // 
-            this.ButtonMultiple.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonMultiple.Location = new System.Drawing.Point(281, 111);
-            this.ButtonMultiple.Name = "ButtonMultiple";
-            this.ButtonMultiple.Size = new System.Drawing.Size(86, 102);
-            this.ButtonMultiple.TabIndex = 9;
-            this.ButtonMultiple.Text = "*";
-            this.ButtonMultiple.UseVisualStyleBackColor = true;
-            this.ButtonMultiple.Click += new System.EventHandler(this.ButtonMultiple_Click);
-            // 
-            // ButtonOne
-            // 
-            this.ButtonOne.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonOne.Location = new System.Drawing.Point(3, 219);
-            this.ButtonOne.Name = "ButtonOne";
-            this.ButtonOne.Size = new System.Drawing.Size(86, 102);
-            this.ButtonOne.TabIndex = 10;
-            this.ButtonOne.Text = "1";
-            this.ButtonOne.UseVisualStyleBackColor = true;
-            this.ButtonOne.Click += new System.EventHandler(this.ButtonOne_Click);
-            // 
-            // ButtonTwo
-            // 
-            this.ButtonTwo.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonTwo.Location = new System.Drawing.Point(95, 219);
-            this.ButtonTwo.Name = "ButtonTwo";
-            this.ButtonTwo.Size = new System.Drawing.Size(86, 102);
-            this.ButtonTwo.TabIndex = 11;
-            this.ButtonTwo.Text = "2";
-            this.ButtonTwo.UseVisualStyleBackColor = true;
-            this.ButtonTwo.Click += new System.EventHandler(this.ButtonTwo_Click);
-            // 
-            // ButtonThree
-            // 
-            this.ButtonThree.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonThree.Location = new System.Drawing.Point(187, 219);
-            this.ButtonThree.Name = "ButtonThree";
-            this.ButtonThree.Size = new System.Drawing.Size(86, 102);
-            this.ButtonThree.TabIndex = 12;
-            this.ButtonThree.Text = "3";
-            this.ButtonThree.UseVisualStyleBackColor = true;
-            this.ButtonThree.Click += new System.EventHandler(this.ButtonThree_Click);
-            // 
-            // ButtonAdd
-            // 
-            this.ButtonAdd.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonAdd.Location = new System.Drawing.Point(281, 219);
-            this.ButtonAdd.Name = "ButtonAdd";
-            this.ButtonAdd.Size = new System.Drawing.Size(86, 102);
-            this.ButtonAdd.TabIndex = 13;
-            this.ButtonAdd.Text = "+";
-            this.ButtonAdd.UseVisualStyleBackColor = true;
-            this.ButtonAdd.Click += new System.EventHandler(this.ButtonAdd_Click);
-            // 
-            // ButtonAllClear
-            // 
-            this.ButtonAllClear.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonAllClear.Location = new System.Drawing.Point(3, 327);
-            this.ButtonAllClear.Name = "ButtonAllClear";
-            this.ButtonAllClear.Size = new System.Drawing.Size(86, 102);
-            this.ButtonAllClear.TabIndex = 14;
-            this.ButtonAllClear.Text = "AC";
-            this.ButtonAllClear.UseVisualStyleBackColor = true;
-            this.ButtonAllClear.Click += new System.EventHandler(this.ButtonAllClear_Click);
-            // 
-            // ButtonZero
-            // 
-            this.ButtonZero.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonZero.Location = new System.Drawing.Point(95, 327);
-            this.ButtonZero.Name = "ButtonZero";
-            this.ButtonZero.Size = new System.Drawing.Size(86, 102);
-            this.ButtonZero.TabIndex = 15;
-            this.ButtonZero.Text = "0";
-            this.ButtonZero.UseVisualStyleBackColor = true;
-            this.ButtonZero.Click += new System.EventHandler(this.ButtonZero_Click);
+            this.ButtonSubtract.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonSubtract.Location = new System.Drawing.Point(281, 327);
+            this.ButtonSubtract.Name = "ButtonSubtract";
+            this.ButtonSubtract.Size = new System.Drawing.Size(86, 102);
+            this.ButtonSubtract.TabIndex = 17;
+            this.ButtonSubtract.Text = "-";
+            this.ButtonSubtract.UseVisualStyleBackColor = true;
+            this.ButtonSubtract.Click += new System.EventHandler(this.ButtonSubtract_Click);
             // 
             // ButtonPoint
             // 
@@ -260,16 +118,159 @@
             this.ButtonPoint.UseVisualStyleBackColor = true;
             this.ButtonPoint.Click += new System.EventHandler(this.ButtonPoint_Click);
             // 
-            // ButtonSubtract
+            // ButtonZero
             // 
-            this.ButtonSubtract.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ButtonSubtract.Location = new System.Drawing.Point(281, 327);
-            this.ButtonSubtract.Name = "ButtonSubtract";
-            this.ButtonSubtract.Size = new System.Drawing.Size(86, 102);
-            this.ButtonSubtract.TabIndex = 17;
-            this.ButtonSubtract.Text = "-";
-            this.ButtonSubtract.UseVisualStyleBackColor = true;
-            this.ButtonSubtract.Click += new System.EventHandler(this.ButtonSubtract_Click);
+            this.ButtonZero.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonZero.Location = new System.Drawing.Point(95, 327);
+            this.ButtonZero.Name = "ButtonZero";
+            this.ButtonZero.Size = new System.Drawing.Size(86, 102);
+            this.ButtonZero.TabIndex = 15;
+            this.ButtonZero.Text = "0";
+            this.ButtonZero.UseVisualStyleBackColor = true;
+            this.ButtonZero.Click += new System.EventHandler(this.NumberButton_Click);
+            // 
+            // ButtonAllClear
+            // 
+            this.ButtonAllClear.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonAllClear.Location = new System.Drawing.Point(3, 327);
+            this.ButtonAllClear.Name = "ButtonAllClear";
+            this.ButtonAllClear.Size = new System.Drawing.Size(86, 102);
+            this.ButtonAllClear.TabIndex = 14;
+            this.ButtonAllClear.Text = "AC";
+            this.ButtonAllClear.UseVisualStyleBackColor = true;
+            this.ButtonAllClear.Click += new System.EventHandler(this.ButtonAllClear_Click);
+            // 
+            // ButtonAdd
+            // 
+            this.ButtonAdd.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonAdd.Location = new System.Drawing.Point(281, 219);
+            this.ButtonAdd.Name = "ButtonAdd";
+            this.ButtonAdd.Size = new System.Drawing.Size(86, 102);
+            this.ButtonAdd.TabIndex = 13;
+            this.ButtonAdd.Text = "+";
+            this.ButtonAdd.UseVisualStyleBackColor = true;
+            this.ButtonAdd.Click += new System.EventHandler(this.ButtonAdd_Click);
+            // 
+            // ButtonThree
+            // 
+            this.ButtonThree.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonThree.Location = new System.Drawing.Point(187, 219);
+            this.ButtonThree.Name = "ButtonThree";
+            this.ButtonThree.Size = new System.Drawing.Size(86, 102);
+            this.ButtonThree.TabIndex = 12;
+            this.ButtonThree.Text = "3";
+            this.ButtonThree.UseVisualStyleBackColor = true;
+            this.ButtonThree.Click += new System.EventHandler(this.NumberButton_Click);
+            // 
+            // ButtonTwo
+            // 
+            this.ButtonTwo.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonTwo.Location = new System.Drawing.Point(95, 219);
+            this.ButtonTwo.Name = "ButtonTwo";
+            this.ButtonTwo.Size = new System.Drawing.Size(86, 102);
+            this.ButtonTwo.TabIndex = 11;
+            this.ButtonTwo.Text = "2";
+            this.ButtonTwo.UseVisualStyleBackColor = true;
+            this.ButtonTwo.Click += new System.EventHandler(this.NumberButton_Click);
+            // 
+            // ButtonOne
+            // 
+            this.ButtonOne.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonOne.Location = new System.Drawing.Point(3, 219);
+            this.ButtonOne.Name = "ButtonOne";
+            this.ButtonOne.Size = new System.Drawing.Size(86, 102);
+            this.ButtonOne.TabIndex = 10;
+            this.ButtonOne.Text = "1";
+            this.ButtonOne.UseVisualStyleBackColor = true;
+            this.ButtonOne.Click += new System.EventHandler(this.NumberButton_Click);
+            // 
+            // ButtonMultiple
+            // 
+            this.ButtonMultiple.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonMultiple.Location = new System.Drawing.Point(281, 111);
+            this.ButtonMultiple.Name = "ButtonMultiple";
+            this.ButtonMultiple.Size = new System.Drawing.Size(86, 102);
+            this.ButtonMultiple.TabIndex = 9;
+            this.ButtonMultiple.Text = "*";
+            this.ButtonMultiple.UseVisualStyleBackColor = true;
+            this.ButtonMultiple.Click += new System.EventHandler(this.ButtonMultiple_Click);
+            // 
+            // ButtonSix
+            // 
+            this.ButtonSix.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonSix.Location = new System.Drawing.Point(187, 111);
+            this.ButtonSix.Name = "ButtonSix";
+            this.ButtonSix.Size = new System.Drawing.Size(86, 102);
+            this.ButtonSix.TabIndex = 8;
+            this.ButtonSix.Text = "6";
+            this.ButtonSix.UseVisualStyleBackColor = true;
+            this.ButtonSix.Click += new System.EventHandler(this.NumberButton_Click);
+            // 
+            // ButtonFive
+            // 
+            this.ButtonFive.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonFive.Location = new System.Drawing.Point(95, 111);
+            this.ButtonFive.Name = "ButtonFive";
+            this.ButtonFive.Size = new System.Drawing.Size(86, 102);
+            this.ButtonFive.TabIndex = 7;
+            this.ButtonFive.Text = "5";
+            this.ButtonFive.UseVisualStyleBackColor = true;
+            this.ButtonFive.Click += new System.EventHandler(this.NumberButton_Click);
+            // 
+            // ButtonFour
+            // 
+            this.ButtonFour.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonFour.Location = new System.Drawing.Point(3, 111);
+            this.ButtonFour.Name = "ButtonFour";
+            this.ButtonFour.Size = new System.Drawing.Size(86, 102);
+            this.ButtonFour.TabIndex = 6;
+            this.ButtonFour.Text = "4";
+            this.ButtonFour.UseVisualStyleBackColor = true;
+            this.ButtonFour.Click += new System.EventHandler(this.NumberButton_Click);
+            // 
+            // ButtonDivide
+            // 
+            this.ButtonDivide.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonDivide.Location = new System.Drawing.Point(281, 3);
+            this.ButtonDivide.Name = "ButtonDivide";
+            this.ButtonDivide.Size = new System.Drawing.Size(86, 102);
+            this.ButtonDivide.TabIndex = 5;
+            this.ButtonDivide.Text = "%";
+            this.ButtonDivide.UseVisualStyleBackColor = true;
+            this.ButtonDivide.Click += new System.EventHandler(this.ButtonDivide_Click);
+            // 
+            // ButtonNine
+            // 
+            this.ButtonNine.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonNine.Location = new System.Drawing.Point(187, 3);
+            this.ButtonNine.Name = "ButtonNine";
+            this.ButtonNine.Size = new System.Drawing.Size(86, 102);
+            this.ButtonNine.TabIndex = 4;
+            this.ButtonNine.Text = "9";
+            this.ButtonNine.UseVisualStyleBackColor = true;
+            this.ButtonNine.Click += new System.EventHandler(this.NumberButton_Click);
+            // 
+            // ButtonEight
+            // 
+            this.ButtonEight.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonEight.Location = new System.Drawing.Point(95, 3);
+            this.ButtonEight.Name = "ButtonEight";
+            this.ButtonEight.Size = new System.Drawing.Size(86, 102);
+            this.ButtonEight.TabIndex = 3;
+            this.ButtonEight.Text = "8";
+            this.ButtonEight.UseVisualStyleBackColor = true;
+            this.ButtonEight.Click += new System.EventHandler(this.NumberButton_Click);
+            // 
+            // ButtonSeven
+            // 
+            this.ButtonSeven.Font = new System.Drawing.Font("굴림", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ButtonSeven.Location = new System.Drawing.Point(3, 3);
+            this.ButtonSeven.Name = "ButtonSeven";
+            this.ButtonSeven.Size = new System.Drawing.Size(86, 102);
+            this.ButtonSeven.TabIndex = 2;
+            this.ButtonSeven.Text = "7";
+            this.ButtonSeven.UseVisualStyleBackColor = true;
+            this.ButtonSeven.Click += new System.EventHandler(this.NumberButton_Click);
             // 
             // ButtonResult
             // 
@@ -283,9 +284,21 @@
             this.ButtonResult.UseVisualStyleBackColor = true;
             this.ButtonResult.Click += new System.EventHandler(this.ButtonResult_Click);
             // 
+            // displayEx
+            // 
+            this.displayEx.Font = new System.Drawing.Font("굴림", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.displayEx.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.displayEx.Location = new System.Drawing.Point(6, 9);
+            this.displayEx.Name = "displayEx";
+            this.displayEx.Size = new System.Drawing.Size(353, 23);
+            this.displayEx.TabIndex = 16;
+            this.displayEx.Text = "0";
+            this.displayEx.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // Form1
             // 
             this.ClientSize = new System.Drawing.Size(367, 587);
+            this.Controls.Add(this.displayEx);
             this.Controls.Add(this.ButtonResult);
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.display);
@@ -318,6 +331,7 @@
         private System.Windows.Forms.Button ButtonNine;
         private System.Windows.Forms.Button ButtonEight;
         private System.Windows.Forms.Button ButtonResult;
+        private System.Windows.Forms.Label displayEx;
     }
 }
 
